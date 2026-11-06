@@ -1,0 +1,69 @@
+div p {
+color :red;
+}
+div>p{
+color :rgb(37, 19, 19);
+}
+div+p{
+    color: aqua;
+}
+h1{
+    visibility: hidden;
+}
+h1{
+    display: none;
+}
+li{
+    display: inline;
+}
+strong{
+    display: block;
+}
+h1{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+h1{
+    position: relative;
+    left: -20px;
+    top: 30px;
+}
+h1{
+    position: absolute;
+    left: 50px;
+    top :100px;
+}
+img{
+    position: absolute;
+    z-index: -1;
+}
+/*12*/
+.topleft{
+position: absolute;
+left: 30px;
+top: 15px;
+}
+/*13*/
+.MyDiv{
+    margin: 0 auto;
+}
+/*14*/
+.MyDiv{
+    position: absolute;
+    right: 0;
+}
+/*15*/
+a:link,
+a:visited{
+    background-color: alightblue;
+}
+a:hover,
+a:active
+{
+background-color: yellow;
+}
+.highlight:hover{
+background-color: alightblue;
+}
+
